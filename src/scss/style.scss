@@ -1,0 +1,27 @@
+@import './global.scss';
+
+body{
+	margin:0;
+	padding:0;
+}
+.app{
+	width:100vw;
+	height:100vh;
+	background:$gray;
+	display:flex;
+	align-items: center;
+	justify-content: center;
+	
+	.main{
+		width:300px;
+		background:$white;
+		padding:25px;
+		border:1px solid $darkgray;
+		
+		.row{
+			display:flex;
+			flex-direction: row;
+		}
+	}
+	
+}
